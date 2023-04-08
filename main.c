@@ -142,6 +142,7 @@ int main(int argc, char const *argv[]) {
           }
     
           case 2: {
+            if (comparaDado(iteradorElemento(iteradorUltimo(&fileiras[fileira1-1])), cartaTemp)) {
             switch (cartaTemp.naipe) {
     
               case 'C': {
@@ -199,6 +200,11 @@ int main(int argc, char const *argv[]) {
             }
             printaMesa(fileiras, &pilhaVirada, &pilhaVisivel, pilhasF);
             break;
+
+          } else {
+            printf("Nao eh possivel colocar essa carta nas pilhas!\n");
+            printaMesa(fileiras, &pilhaVirada, &pilhaVisivel, pilhasF);
+          }
           }
           
         }
