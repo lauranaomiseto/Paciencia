@@ -6,6 +6,8 @@ Elabora-se o jogo de paciência em C utilizando e respeitando o conceito de enca
 * Pilhas dinamicamente alocadas e sequenciais: para armazenar o monte auxiliar de cartas e os montes dos conjuntos de cartas do mesmo naipe;
 * Listas cirulares duplamente encadeadas com sentinela e iterador: para armazenar as 7 fileiras de cartas;
 
+## [Documentação](https://lauranaomiseto.github.io/Paciencia/)
+
 ### Sobre a nossa Pilha
 
 * <strong> Struct Pilha</strong>: Contem 2 campos, topo, responsável por definir o número do topo da Pilha e *carta, um ponteiro para as posições da Pilha alocada dinamicamente;
